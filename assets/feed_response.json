@@ -1,0 +1,42 @@
+{
+  "status": "success",
+  "total_articles": 20,
+  "featured_count": 3,
+  "standard_count": 17,
+  "feed": {
+    "featured": [
+      {
+        "rank": 1,
+        "relevance_score": 0.92,
+        "matched_tags": ["Python", "Machine Learning"],
+        "title": "New DistilBART Model Drops for Edge Devices",
+        "source": "TechCrunch",
+        "url": "https://example.com/news1",
+        "image": "https://example.com/image1.jpg",
+        "published_at": "2023-10-25T10:00:00Z",
+        "has_ai_summary": true,
+        "summary": "Researchers have released a highly compressed DistilBART model optimized for local CPU inference. It reduces memory usage by 40% while maintaining abstractive summarization quality.",
+        "audio_path": "text-to-speech/hero_article_1.wav",
+        "audio_url": "/audio/hero_article_1.wav",
+        "has_audio": true
+      }
+    ],
+    "standard": [
+      {
+        "rank": 4,
+        "relevance_score": 0.65,
+        "matched_tags": ["FastAPI"],
+        "title": "FastAPI Creator Announces New Async Features",
+        "source": "Hacker News",
+        "url": "https://example.com/news4",
+        "image": "https://example.com/image4.jpg",
+        "published_at": "2023-10-25T08:00:00Z",
+        "has_ai_summary": false,
+        "summary": "The latest release of FastAPI brings significant improvements to background task execution and memory management.",
+        "audio_path": null,
+        "audio_url": null,
+        "has_audio": false
+      }
+    ]
+  }
+}
